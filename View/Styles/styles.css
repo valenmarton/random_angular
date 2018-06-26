@@ -1,0 +1,82 @@
+html, tbody {
+    height: 100%;
+}
+  /* login page CSS  */
+
+.login-body {
+    background: url('../images/bank1.jpg');
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: lightgray;
+    background-color: rgba(220, 220, 220, .5);
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+}
+#jumboheader {
+  letter-spacing: 5px;
+}
+
+    /* transaction page CSS */
+
+.header {
+    color: darkslategray;
+    background-color: darkgray;
+    opacity: 0.8 !important;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: darkgray;"
+}
+.jumbotron-heading {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    background-color: brown;
+}
+
+
+.card-body {
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+.green {
+    color: #228B22;
+}
+
+.details:hover {  border: 1px solid dodgerblue; background-color: aliceblue !important;
+}
+.transaction-body {
+    background: url('../images/lightblue2.jpg');
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+
+}
+
+#click {
+    border-left: 6px solid black;
+    margin-left: 40px;
+}
+.card-body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+}
+#login {
+  margin: 10px;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+#username {
+  margin-bottom: 10px;
+}
